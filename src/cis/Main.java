@@ -24,13 +24,13 @@ public class Main {
         System.out.println("2.  "+orif.name + " "+orif.major);
 
         //add student to array
-        Student[] oopStudent = {firo, orif};
+        Student[] IDStudent = {firo, orif};
 
-        System.out.println("1.  "+oopStudent[0].name);
-        System.out.println("2.  "+oopStudent[1].name);
+        System.out.println("1.  "+IDStudent[0].name);
+        System.out.println("2.  "+IDStudent[1].name);
 
 
-        find_cis_Student(oopStudent);
+        find_cis_Student(IDStudent);
     }
     //To find cis Student
     public static  void find_cis_Student(Student[] students){
